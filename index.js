@@ -1,27 +1,28 @@
 // oppgave 1
 console.log("OPPGAVE 1");
 
-const tall = [12, 5, 8, 130, 44, 8, 5, 130];
+const tall = [5, 5, 8, 8, 12, 44, 130, 130];
 
-console.log("1a - Alle elementene");
+
+console.log("a. Alle elementene");
 
 for (let i = 0; i < tall.length; i++) {
     console.log(tall[i]);
 }
 
-console.log("1b - Fra siste til første");
+console.log("b. Fra siste til første");
 
 for (let i = tall.length - 1; i >= 0; i--) {
     console.log(tall[i]);
 }
 
-console.log("1c - Indeksert utskrift");
+console.log("c. Indeksert utskrift");
 
 for (let i = 0; i < tall.length; i++) {
     console.log(i + ":" + tall[i]);
 }
 
-console.log("1d - Sum og gjennomsnitt");
+console.log("d. Sum og gjennomsnitt");
 
 let sum = 0;
 
@@ -33,7 +34,6 @@ let gjennomsnitt = sum / tall.length;
 
 console.log("Sum:", sum);
 console.log("Gjennomsnitt:", gjennomsnitt);
-
 
 // oppgave 2
 console.log("OPPGAVE 2");
